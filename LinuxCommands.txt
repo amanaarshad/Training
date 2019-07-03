@@ -1,0 +1,46 @@
+$ pwd 
+-----------------
+Who am I (whoami) 
+----------------_
+$ whoami
+
+Hostname (hostname)
+-------------------
+$ hostname
+
+Home directory
+--------------
+$ cd ~
+$ cd /Users/amnaarshad
+
+move (mv)
+---------
+$ mv <src> <dst>
+$ mv /Users/marshad/Downloads/A.txt /Users/marshad/Desktop
+
+Copy (cp)
+---------
+$ cp <src> <dst>
+$ cp /Users/marshad/Downloads/A.txt /Users/marshad/Desktop/B.txt
+
+Make directory (mkdir)
+----------------------
+$ mkdir <dir_name>
+$ mkdir /Users/marshad/Desktop/Work
+
+unzip
+-----
+$ unzip <file_name>
+$ unzip A.zip
+
+how to configure git
+---------------------
+git config --global user.name "xyz"
+git config --global user.email "abc@gmail.com"
+
+how to add file in the git
+--------------------------
+git add "filename"
+git commit -m "this is commit file"
+git push 
+git status
